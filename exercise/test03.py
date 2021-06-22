@@ -39,6 +39,8 @@ for i in range(1,6):
         print("*", end = "")
     print()
 
+
+
 '''#4번
 for i in range(1,101):
     print(i)'''
@@ -58,3 +60,7 @@ for n in numbers:
     if n % 2 ==1:
         result.append(n*2)
 print(result)
+
+result2 = []
+result2 = [n*2 for n in numbers if n%2 ==1] # 리스트 내포
+print(result2)
