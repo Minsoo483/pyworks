@@ -17,3 +17,8 @@ for x in range(name_len):
     name += alpha
     
 print(name)
+
+#참가자 만들기
+for x in range(1,11):
+
+    particaint = list(name)
