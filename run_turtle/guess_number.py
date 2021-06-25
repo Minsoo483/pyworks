@@ -13,4 +13,4 @@ while True:
     else:
         print('정답')
         break
-
+t.mainloop()

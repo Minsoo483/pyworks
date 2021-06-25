@@ -29,3 +29,5 @@ t.pensize(2)
 for i in range(n):
     t.rt(360/n)
     t.fd(100)
+
+t.mainloop()

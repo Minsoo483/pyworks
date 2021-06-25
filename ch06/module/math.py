@@ -5,7 +5,7 @@ print(math.pi)
 #원의 넓이
 r = 5
 
-print("반지름의 크기가 {}인 원의 넓이는 {}".format(r,(math.pi * r*r)))
+print("반지름의 크기가 {}인 원의 넓이는 {}".format(r, (math.pi * r * r)))
 
 print(math.ceil(2.11))
 print(math.floor(5.888))

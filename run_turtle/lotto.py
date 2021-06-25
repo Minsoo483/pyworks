@@ -21,6 +21,6 @@ while len(lotto2) <6:
         lotto2.append(n)
 
 
-print(lotto2)
-    
-           
+print("이번주 로또 예측 : " ,lotto2)
+
+t.mainloop()

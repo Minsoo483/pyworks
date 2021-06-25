@@ -11,4 +11,4 @@ for x in range(n):
     t.circle(80)
     t.lt(360/n)
     
-
+t.mainloop()

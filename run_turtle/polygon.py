@@ -19,4 +19,4 @@ for x in range(3,10):
     t.fd(1)
     t.down()
     
-
+t.mainloop()
