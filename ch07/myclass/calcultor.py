@@ -9,8 +9,8 @@ class Calculator:
 
     def sub(self):
         return self.x - self.y
-    def mul(self):
 
+    def mul(self):
         return self.x * self.y
 
     def div(self):

@@ -33,9 +33,11 @@ def play():
 
     if t.distance(te) >= 12:
         t.ontimer(play, 100) # 0.1초간격으로 작동 but, 적과의 거리가 12보다 클때만!
-ㄹ
+
 
 # 메인 영역
+t.setup(500, 500)
+t.title("달려라 거북이")
 t.bgcolor('orange')
 t.shape('turtle')
 t.speed(0)
