@@ -30,5 +30,36 @@ print("you"+"need"+"python")
 print("you" "need" "python")
 print("you","need","python")  # '콤마(,)는 한 칸 띄어짐
 
-#5번
+# 5번
+f1 = open('test.txt', 'w')
+f1.write("Life is too short")
+f1.close()
 
+f2 = open('test.txt', 'r')
+print(f2.read())
+f2.close()
+
+
+# 6번
+user_input = input("저장할 내용을 입력하세요:")
+f = open('test.txt', 'a')
+f.write(user_input)
+f.write('\n')
+f.close()
+
+
+# 7번
+f1 = open('test.txt', 'w')
+f1.write("Life is too short\n")
+f1.write("you need java")
+f1.close()
+
+f = open('test.txt', 'r')
+body = f.read()
+f.close()
+
+body = body.replace('java', 'python')
+
+f = open('test.txt', 'w')
+f.write(body)
+f.close()

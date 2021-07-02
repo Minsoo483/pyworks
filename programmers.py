@@ -16,7 +16,7 @@ for x in range(3):
     participant += name + ' '
 # 만들어진 participant(str)을 list로 전환
 participant = participant.split()
-print('참가',participant)
+print('참가', participant)
 
 
 #완주 못한 사람 만들기

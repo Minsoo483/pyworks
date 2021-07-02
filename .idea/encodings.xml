@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ch08/fileIO/2021kbo.txt" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/ch08/fileIO/data.txt" charset="x-windows-949" />
     <file url="file://$PROJECT_DIR$/ch08/fileIO/input.txt" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/ch08/score/score.txt" charset="x-windows-949" />
+    <file url="file://$PROJECT_DIR$/ch08/score/scorelist.txt" charset="x-windows-949" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
