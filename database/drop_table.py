@@ -1,15 +1,15 @@
 from libs.db.dbconn import getconn
 
 
-def update_data():
+def drop_table():
     conn = getconn()
     cur = conn.cursor()
-    sql = "update member set name = '이몽룡' where mem_num = 104"
-    cur.execute(sql)
 
+    sql = "drop table member"
+    cur.execute(sql)
     conn.commit()
     conn.close()
 
 
 if __name__ == "__main__":
-    update_data()
+    drop_table()

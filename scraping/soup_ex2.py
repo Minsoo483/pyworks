@@ -16,9 +16,12 @@ html_str = '''
     </body>    
     </html>
 '''
+content = BeautifulSoup(html_str, 'html.parser')
+ul = content.find('ul', {'class': 'lang'})
+# print(ul)
+'''li = ul.find('li')
+print(li)  -> 맨위 li 만 검색'''
 
-soup = BeautifulSoup(html_str, 'html.parser')
-# print(soup)
-ul = soup.find('ul') # find는 맨 처음 나오는 태그만 검색
-print(ul)
-print(ul.text)
+lis = ul.find_all('li') # find_all 은 list의 형태로 담김.
+print(lis) # <li>태그 포함
+print(lis[1].text) # text만 추출
