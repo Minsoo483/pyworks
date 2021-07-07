@@ -83,3 +83,45 @@ li = [1, 2, 3, 4]
 print(times(li))
 print(list(map(lambda x: x*3, li)))
 
+# 7번
+
+
+def find_max(li):
+    max = li[0]
+    for i in range(1, len(li)):
+        if li[i] >= max:
+            max = li[i]
+    return max
+
+
+def find_min(li):
+    min = li[0]
+    for i in li:
+        if i <= min:
+            min = i
+    return min
+
+
+d1 = [-8, 2, 7, 5, -3, 5, 0, 1]
+max2 = find_max(d1)
+min2 = find_min(d1)
+print(max2)
+print(min2)
+print(max2 + min2)
+'''
+max = max(d1)
+min = min(d1)
+
+print(max)
+print(min)
+print(max + min)'''
+
+# 12번
+import time
+import datetime
+
+now1 = time.strftime("%Y/%m/%d %H:%M:%S")
+print(now1)
+
+now2 = datetime.datetime.now()
+print(now2.strftime("%Y/%m/%d %H:%M:%S"))

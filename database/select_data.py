@@ -10,6 +10,7 @@ def select_data():
 
     print("데이터 전체 조회")
     rs = cur.fetchall() # 꺼내온 자료 객체
+    print(rs) # rs는 리스트형 안에 튜플 [(),()]
     for i in rs:
         print(i)
     # commit 은 불필요 ( select 문이기 때문에)
